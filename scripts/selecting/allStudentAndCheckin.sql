@@ -1,1 +1,1 @@
--- Your SQL here
+select * from students inner join checkins on students.id = checkins.student_id;

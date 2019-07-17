@@ -1,5 +1,5 @@
 Create table students (
-Id int,
+Id serial unique primary key,
 first_name varchar(20),
 last_name varchar(20),
 gender varchar(1),
