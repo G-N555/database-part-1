@@ -1,1 +1,1 @@
--- Your SQL here
+select * from students where (current_date - date(date_of_birth)) > 9125;
